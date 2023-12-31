@@ -7,6 +7,12 @@ wsl -l --all
 # View all distros available for download;
 wsl -l --online
 
+# Install a WSL distro;
+wsl --install -d <distro-name>
+
+# Uninstall a WSL distro;
+wsl --unregister <distro-name>
+
 # Initiate WSL session into your default container;
 wsl
 
